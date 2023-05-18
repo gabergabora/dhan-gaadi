@@ -7,7 +7,7 @@ const guestSchema = new mongoose.Schema({
         required: true,
         maxlength: 32
     },
-    address: {
+    address: {       
         type: String,
         trim: true,
         required: true,
